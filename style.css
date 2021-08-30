@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 450px) {
     .content {
         width: 300px;
         padding: 17px 8px;
