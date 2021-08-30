@@ -57,9 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn {
     text-transform: uppercase;
+    width: 120px;
+    padding: 10px 5px;
     margin-left: 10px;
     margin-right: 10px;
-    padding: 7px 10px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -76,6 +77,27 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
     .content {
+        width: 400px;
+        padding: 20px 10px;
+    }
+    .count {
+        font-size: 30px;
+    }
+    #value {
+        font-size: 30px;
+    }
+
+    .btn {
+        width: 90px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 8px 10px;
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 450px) {
+    .content {
         width: 350px;
         padding: 20px 10px;
     }
@@ -87,29 +109,10 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .btn {
+        width: 80px;
         margin-left: 5px;
         margin-right: 5px;
-        padding: 5px 8px;
-        font-size: 7px;
-    }
-}
-
-@media (max-width: 450px) {
-    .content {
-        width: 300px;
-        padding: 17px 8px;
-    }
-    .count {
-        font-size: 25px;
-    }
-    #value {
-        font-size: 25px;
-    }
-
-    .btn {
-        margin-left: 4px;
-        margin-right: 4px;
-        padding: 4px 8px;
-        font-size: 5px;
+        padding: 7px 10px;
+        font-size: 10px;
     }
 }
